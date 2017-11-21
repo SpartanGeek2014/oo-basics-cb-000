@@ -40,5 +40,5 @@ class Book
 end
 
 book = Book.new("Some Title")
-book.genre = "Mystery"
+book.genre.new = "Mystery"
 book.turn_page
