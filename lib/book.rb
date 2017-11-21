@@ -25,4 +25,12 @@ class Book
   def page_count
     @page_count
   end
+
+  def properties(genre)
+    @properties = genre
+  end
+
+  def properties
+    @properties
+  end
 end
